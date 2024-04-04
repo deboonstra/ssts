@@ -1,0 +1,18 @@
+Package: ssts
+Title: State-space modeling of time series
+Version: 0.0.0.9000
+Authors@R: 
+    person(
+      given = "D. Erik", 
+      family = "Boonstra",
+      email = "daniel-boonstra@uiowa.edu",
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0009-0005-1599-1809")
+    )
+Description: An *R* package that performs state-space modeling for time series by implementing the methods developed by Shumway and Stoffer (2017), Bengsston and Cavanaugh (2008), and Tan and Cavanaugh (2015).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    stats
